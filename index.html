@@ -1,0 +1,84 @@
+<!-- 
+ 
+Hola shur, veo que tú eres un usuario más avanzado. Si vienes a ver si lo he hecho con IA no busques más: sí, está hecho con IA.
+Concreteamente con Cursor usando el modelo claude-3.5-sonset
+
+Espero que después de esto me regales una de tus invitaciones, me sería de mucha ayuda.
+
+
+
+                        __
+                     -=(o '.
+                        '.-.\
+                        /|  \\
+                        '|  ||
+                        _\_):,_
+
+
+
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invítame shur</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="/roto.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <img src="banner.png" alt="Banner" id="banner-image">
+        </div>
+
+        <div class="content">
+            <h1 class="main-title">¿SIGUES INVESTIGANDO?</h1>
+            <h2 class="main-title">👇👇</h1>
+
+                <div class="description">
+                    <p>Si estás leyendo esto es que posiblemente estés valorando darme una de tus preciadas
+                        invitaciones, si sigues leyendo te intentaré convencer.</p>
+                    <p>Puede que te parezca un friki, pero tienes que reconocer que me lo estoy currando, ¿no?</p>
+                    <p>Después de los hilos que has leído y de ver esta web creo que puedo demostrar que no soy un
+                        troll.</p>
+
+                </div>
+
+                <div class="social-link">
+                    <a href="https://x.com/donkuvra" target="_blank" class="twitter-link">
+                        Regálame tu invitación por mensaje privado en X/Twitter
+                    </a>
+                </div>
+                <div class="description">
+                    <p>Me comprometo a aportar en el foro y ser un pingüino educado. 🐧</p>
+                </div>
+        </div>
+    </div>
+
+    <div id="exit-message" class="exit-message">
+        <p>¡Porfa, aún no te vayas! 😢</p>
+    </div>
+
+    <script>
+        document.addEventListener('mouseout', function (e) {
+            if (e.clientY <= 0) {
+                document.getElementById('exit-message').style.display = 'block';
+            }
+        });
+
+        document.addEventListener('mouseover', function () {
+            document.getElementById('exit-message').style.display = 'none';
+        });
+
+        window.addEventListener('beforeunload', function (e) {
+            e.preventDefault();
+            e.returnValue = '¿Me darás otra oportunidad? 😢';
+            return e.returnValue;
+        });
+    </script>
+</body>
+
+</html>
