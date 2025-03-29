@@ -1,7 +1,7 @@
 /* Importación de la fuente personalizada */
 @font-face {
     font-family: 'MiDIN';
-    src: url('/dni-bold.ttf') format('truetype');
+    src: url('/din-bold.ttf') format('truetype');
 }
 
 * {
